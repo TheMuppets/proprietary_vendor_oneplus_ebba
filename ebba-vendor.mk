@@ -45,6 +45,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/ebba/proprietary/vendor/etc/camera/distortion_result_front.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/distortion_result_front.bin \
     vendor/oneplus/ebba/proprietary/vendor/etc/camera/model.data:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model.data \
     vendor/oneplus/ebba/proprietary/vendor/etc/camera/segment.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/segment.dlc \
+    vendor/oneplus/ebba/proprietary/vendor/etc/faceunlock/faceapp.b00:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b00 \
+    vendor/oneplus/ebba/proprietary/vendor/etc/faceunlock/faceapp.b01:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b01 \
+    vendor/oneplus/ebba/proprietary/vendor/etc/faceunlock/faceapp.b02:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b02 \
+    vendor/oneplus/ebba/proprietary/vendor/etc/faceunlock/faceapp.b03:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b03 \
+    vendor/oneplus/ebba/proprietary/vendor/etc/faceunlock/faceapp.b04:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b04 \
+    vendor/oneplus/ebba/proprietary/vendor/etc/faceunlock/faceapp.b05:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b05 \
+    vendor/oneplus/ebba/proprietary/vendor/etc/faceunlock/faceapp.b06:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b06 \
+    vendor/oneplus/ebba/proprietary/vendor/etc/faceunlock/faceapp.b07:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b07 \
+    vendor/oneplus/ebba/proprietary/vendor/etc/faceunlock/faceapp.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.mdt \
+    vendor/oneplus/ebba/proprietary/vendor/etc/faceunlock/resources.zip:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/resources.zip \
     vendor/oneplus/ebba/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
     vendor/oneplus/ebba/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/oneplus/ebba/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
@@ -231,6 +241,7 @@ PRODUCT_PACKAGES += \
     libofflinelog \
     libos \
     libpn553_fw \
+    libstfaceunlockocl \
     libswregistrationalgo \
     libsynx \
     libthreadutils \
