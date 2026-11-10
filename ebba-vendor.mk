@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/ebba/proprietary/odm/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Speaker_cal.acdb \
     vendor/oneplus/ebba/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
     vendor/oneplus/ebba/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
+    vendor/oneplus/ebba/proprietary/odm/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_ODM)/firmware/tfa98xx.cnt \
     vendor/oneplus/ebba/proprietary/odm/firmware/tp/20813/FW_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20813/FW_FT3518_SAMSUNG.img \
     vendor/oneplus/ebba/proprietary/odm/firmware/tp/20813/FW_FT3518_SAMSUNG_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20813/FW_FT3518_SAMSUNG_FAE.img \
     vendor/oneplus/ebba/proprietary/odm/firmware/tp/20813/LIMIT_FT3518_SAMSUNG.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/20813/LIMIT_FT3518_SAMSUNG.img \
